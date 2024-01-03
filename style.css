@@ -1,0 +1,42 @@
+/* Basic styling for the chat notification */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.chat-notification {
+  display: flex;
+  max-width: 24rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border: 0.5px solid #AAA;
+  border-radius: 0.5rem;
+  background-color: #FEFEFE;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10), 0px 9px 9px 0px rgba(0, 0, 0, 0.09), 0px 21px 13px 0px rgba(0, 0, 0, 0.05), 0px 38px 15px 0px rgba(0, 0, 0, 0.01), 0px 59px 16px 0px rgba(0, 0, 0, 0.00);
+
+image 540
+Image · 100 x 100
+}
+
+.chat-notification-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.chat-notification-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+
+.chat-notification-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.chat-notification-message {
+  margin: 4px 0 0;
+  font-size: 18px;
+  color: #959595;
+}
